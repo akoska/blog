@@ -34,7 +34,7 @@ layout: root
                     {% for post in site.posts %}
                     <div class="postItem py-3">
                         <h3>
-                            <a href="{{ post.url }}" class="">{{ post.title }}</a>
+                            <a href="{{ site.url }}{{ post.url }}" class="">{{ post.title }}</a>
                         </h3>
                         <div class="postInfo mb-3">
                             <span class="date text-secondary">{{ post.date | date: '%B %d, %Y' }}</span>
