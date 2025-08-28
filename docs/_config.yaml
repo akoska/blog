@@ -1,4 +1,4 @@
-url: https://blabosoft.com # the base hostname & protocol for your site
+url: https://akoska.github.io/blog # the base hostname & protocol for your site
 
 kramdown:
   hard_wrap: true
