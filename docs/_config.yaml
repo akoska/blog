@@ -1,4 +1,4 @@
-url: https://akoska.github.io/blog # the base hostname & protocol for your site
+url: /blog # the base path to your site
 
 kramdown:
   hard_wrap: true
