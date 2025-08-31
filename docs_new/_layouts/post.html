@@ -1,0 +1,10 @@
+---
+layout: default
+---
+<article class="post-card">
+  <h2>{{ page.title }}</h2>
+  {% if page.summary %}<p>{{ page.summary }}</p>{% endif %}
+  <div class="post-body">
+    {{ content }}
+  </div>
+</article>
